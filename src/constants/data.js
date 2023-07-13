@@ -1,4 +1,4 @@
-import images from './images';
+import images from './images'
 
 const wines = [
   {
@@ -54,7 +54,7 @@ const cocktails = [
     price: '$26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
-];
+]
 
 const awards = [
   {
@@ -77,6 +77,12 @@ const awards = [
     title: 'Outstanding Chef',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
-];
+]
 
-export default { wines, cocktails, awards };
+const expo = {
+  wines,
+  cocktails,
+  awards
+};
+
+export default expo
